@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "DfE.Hexagonal.FunctionApp": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7224",
+      "launchBrowser": false
+    }
+  }
+}

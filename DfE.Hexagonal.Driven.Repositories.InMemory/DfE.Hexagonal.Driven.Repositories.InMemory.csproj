@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DfE.Hexagonal.Application\DfE.Hexagonal.Application.csproj" />
+    <ProjectReference Include="..\DfE.Hexagonal.Common\DfE.Hexagonal.Common.csproj" />
+    <ProjectReference Include="..\DfE.Hexagonal.Model\DfE.Hexagonal.Model.csproj" />
+  </ItemGroup>
+
+</Project>
